@@ -72,25 +72,7 @@ Pandas (2.3.3) & NumPy (2.4.2) — Data Processing
 Plotly (6.5.2) — Interactive Charts & Mapbox Visualizations
 Scikit-learn — DBSCAN Spatial Clustering
 XlsxWriter — Multi-sheet Excel Report Generation
-📁 โครงสร้างโปรเจกต์ (Project Structure)
-text
-Data Detective/
-├── app.py                      # ไฟล์หลักสำหรับ UI, Routing และ Global Filters
-├── 1_crash_reports.csv         # ชุดข้อมูลรายงานอุบัติเหตุ
-├── requirements.txt            # รายการ dependencies
-├── styles/
-│   └── main.css                # Custom CSS สำหรับตกแต่งหน้า Dashboard
-├── utils/
-│   └── data_loader.py          # โหลดข้อมูล CSV พร้อม @st.cache_data
-└── modules/
-    ├── data_audit.py           # ตรวจสอบคุณภาพข้อมูล 4 มิติ
-    ├── cleaning.py             # ทำความสะอาดข้อมูลและติดตาม Metrics
-    ├── visualization.py        # กราฟ Trend, Distribution และ Comparison
-    ├── geo_intelligence.py     # วิเคราะห์พิกัด แผนที่ และ DBSCAN Clustering
-    ├── risk_scoring.py         # คำนวณคะแนนและระดับความเสี่ยง
-    ├── forensics.py            # ตรวจจับ Anomaly ด้วย Z-Score และวิเคราะห์อายุรถ
-    ├── insights.py             # สร้าง Strategic Business Insights
-    └── export_center.py        # ส่งออกไฟล์ Excel, CSV, Summary และเช็กความพร้อม
+
 🚀 วิธีติดตั้งและรันใช้งาน (Getting Started)
 1. สร้าง Virtual Environment และติดตั้ง Dependencies
 bash
